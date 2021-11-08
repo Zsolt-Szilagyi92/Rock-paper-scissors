@@ -1,0 +1,34 @@
+var posibilies = ['Rock', 'Paper', 'Scissors'];
+var player = Math.round(Math.random() * 3);
+var computer = Math.round(Math.random() * 3);
+
+console.log('Player: ' + player);
+console.log('Computer: ' + computer);
+
+
+if (computer === 0) {
+  console.log('Computer choosed rock');
+} else if (computer === 1) {
+  console.log('Computer choosed paper');
+} else {
+  console.log('Computer choosed scissors');
+}
+
+
+if (player === 0) {
+  console.log('Player choosed rock');
+} else if (player === 1) {
+  console.log('Player choosed paper');
+} else {
+  console.log('Player choosed scissors');
+}
+
+if (player === computer) {
+  console.log('Tie!');
+} else if (player > 1 && computer < 1) {
+  console.log('Computer wins!')
+} else if (player > computer) {
+  console.log('Player wins!')
+} else {
+  console.log('Computer wins!')
+}

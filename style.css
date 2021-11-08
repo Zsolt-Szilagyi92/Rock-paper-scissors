@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content-container {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 204, 94);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.images {
+    width: 140px;
+    height: 140px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.images:hover {
+    box-shadow: 5px 5px 5px gray;
+}
